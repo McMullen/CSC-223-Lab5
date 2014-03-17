@@ -3,19 +3,18 @@
 //Due Date:    3/18/14
 //Program:	   Lab5
 //Description: This program will read in a list of courses, store them in an array and then compare
-//			   them and ouput some statistical details. The program will first start off prompt the
-//			   user for the amount of courses they wish to enter. It then will compare that number
-//			   to the size of the array and see if that is possible. If it is not, then the program
-//			   will continually loop until the user enters an appropriate number (the function in
-//			   charge of this will tell the user the max amount of courses that can be entered). It
-//			   then will record the course information and store the details in a 2D array. The
-//			   program will then comput and ouput the overall course with the least amount of
-//			   students in it. After that the proram will compute and output the maximum amount of
-//			   students for each year. It will then sum all the students that attending each course
-//			   for all the years it was offered and ouput the sum for each class. Finally, the
-//			   program will print a graphical representation of the number of students that
-//			   attended each course for every year it was offered (note: it will print a graph for
-//			   each course entered).
+//			   them and ouput some statistical details. The program will first open the required
+//			   input .txt file to read in the information for the desired courses. If the file
+//			   does not exist or can not be open for any reason then the program will immediately
+//			   shutdown. It then will record the course information and store the details in a 2D
+//			   array. The program will then comput and ouput the overall course with the least 
+//			   amount of students in it. After that the proram will compute and output the maximum
+//			   amount of students for each year. It will then sum all the students that attending
+//			   each course for all the years it was offered and ouput the sum for each class. 
+//			   Finally, the program will print a graphical representation of the number of 
+//			   students that attended each course for every year it was offered (note: it will 
+//			   print a graph for each course entered). All output will be recorded in a separate
+//			   .txt file and will be located in the same directory as this source file.
 //-------------------------------------------------------------------------------------------------
 #include <fstream>
 #include <string>
